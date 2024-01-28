@@ -1,0 +1,314 @@
+
+*{
+	margin:0;
+	padding:0;
+	
+	
+}
+  nav{
+	display:flex;
+	justify-content:space-between;
+	background-color:#1a1244;
+	padding:10px 100px;
+	border-bottom:2px solid gray;
+	position:sticky;
+	top:0px;
+	box-sizing:border-box;
+	
+}
+  nav ul{
+	display:flex; 
+	 
+ }
+   nav ul li{
+	 list-style:none;
+	 margin:10px 5px;
+	 
+	 
+	 
+ }
+ 
+    nav ul li a{
+	 text-decoration:none;
+	 color:white;
+	 font-weight:bold;
+	 font-size:20px;
+	 padding:10px 20px;
+	 transition:0.5s;
+	 
+	 
+	 
+ }
+    nav ul li a:hover{
+	background-color:black;
+	color:red;
+	border-radius:5px; 
+	
+	
+}
+     nav div{
+	  color:white;
+	 font-size:20px;
+	
+}
+  /* hero area code start */
+    
+	header{
+	   background-image:url(images/6.jpg);
+	   padding:200px 0;
+	   background-repeat:no-repeat;
+	   background-size:cover;
+	   
+   }
+  
+  
+  .searchbox-icon-parent{
+	 display:flex;
+	 justify-content:center;
+	 align-items:center;
+	
+	
+   }
+   
+
+
+
+  .searchbox-icon-parent i{
+	   color:red;
+	   background-color:green;
+	   font-size:20px;
+	   height:40px;
+	   width:50px;
+	   display:flex;
+	   justify-content:center;
+	   align-items:center;
+	   border-radius:5px;
+	   cursor:pointer;
+	   margin-left:-10px;
+	   
+	   
+   }
+   
+    .searchbox-icon-parent input{
+	  width:500px;
+      height:40px;
+	  border-radius:5px;
+	  font-size:20px;
+	  padding:5px 20px;
+	  box-sizing:border-box;
+	  border:2px solid red;
+	
+	   
+   }
+    /*main section code start */
+
+   main{
+	   background-color:#2d236a;
+	   padding-top:20px;
+	   padding-bottom:50px;
+	  
+	   
+	   
+   }
+  #main-section{
+	width:1100px;
+	margin:0 auto;
+	padding:50px 0;
+	
+	
+	
+	
+  }
+  .latest-video-parent{
+	  display:flex;
+	  justify-content:space-between;
+	  
+  }
+  
+  .latest-video-text{
+	 font-size:25px; 
+	  color:#04aa6d;
+	  font-weight:bold;
+	  
+  }
+  .latest-pages{
+	  color:#04aa6d;
+	  
+	  
+  }
+  .latest-pages span{
+	  color:black;
+	  background-color:antiquewhite;
+	  padding:5px;
+	  border-radius:4px;
+	  margin:0 10px;
+	  border:1px solid #8080805b;
+      cursor:pointer;	  
+  }
+
+
+
+  #single-items-parent{
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	width:1100px;
+	margin:0 auto;
+	grid-column-gap:20px;
+	grid-row-gap:60px;
+	margin-top:20px;
+	
+}
+
+
+  .single-items{
+	height:250px;
+	border:3px solid gray;
+	/*overflow:hidden;*/
+	   
+	
+}
+
+   .single-items img{
+	   width:100%;
+	   height:100%;
+	   transition:.5s;
+	   cursor:pointer;
+	  
+   }
+   
+   
+   
+   .single-items:hover img{
+	   transform:scale(1.1);
+	   border-radius:20px;
+	  
+	   
+	   
+   }
+   
+   
+   .single-items div{
+	   display:flex;
+	   justify-content:space-between;
+	   color:gray;
+	   margin-top:10px;
+	  
+   }
+     /* previus next page code*/
+
+    #previous-next-parent{
+		margin-top:100px;
+		display:flex;
+		justify-content:space-between;
+		
+		
+	}
+	 #previous-next-parent a{
+		text-decoration:none; 
+		color:white; 
+		
+	 }
+   #previous-next-parent h3 a{
+	   
+	  background-color:#04aa6d; 
+	  padding:10px 25px;
+	  border-radius:5px;
+	  transition:.5s;
+	   
+   }
+
+    #previous-next-parent h3 a:hover{
+		 background-color:#028354; 
+		
+		
+	}
+   #previous-next-parent div a{
+	   margin:0 10px;
+	   background-color:white;
+	   color:black;
+	   padding:8px;
+	   border-radius:5px;
+	   border:1px solid #80808069;
+	   
+	   
+	   
+   }
+   #previous-next-parent .first-child{
+	       background-color:#028354;
+		   
+	   
+	   
+   }
+   /*footer section cord start */
+   
+   
+   footer{
+	   background-color:#5f1e69;
+	   color:white;
+	    margin-bottom:100px;
+   }
+	   
+  
+  #footer-container{
+	  width:900px;
+      margin:auto;
+	  display:grid;
+	  grid-template-columns:repeat(3,1fr);
+	  justify-content:space-between;
+	   grid-gap:50px;
+	   
+	   
+   }
+
+  .footer-firstitem h3{
+	  font-size:25px;
+	  padding:30px 0;
+	  margin-top:20px;
+	  margin-bottom:10px;
+	  
+  }
+   .footer-firstitem .first-p{
+	   margin-bottom:50px;
+	   
+	   
+   }
+    .footer-secondtitem h3{
+		font-size:25px;
+		 margin-top:20px;
+		  padding:30px 0;
+	}
+    .footer-secondtitem a{
+		text-decoration:none;
+		color:white;
+	
+		
+		
+	}
+	.footer-secondtitem p{
+	   	margin-bottom:10px;	
+		
+	}
+    .footer-thirditem div{
+		font-size:25px;
+		 margin-top:20px;
+		  padding:30px 0;
+	}
+	
+	.footer-thirditem div a{
+		color:white;
+		text-decoration:none;
+		margin-right:10px;
+		background-color:#1a1244;
+		padding:10px;
+		border-radius:5px;
+		
+	}
+	
+	.footer-thirditem p{
+		margin-bottom:10px;
+		
+	}
+	.footer-thirditem p:nth-child(3){
+		margin-bottom:70px;
+		
+	}
